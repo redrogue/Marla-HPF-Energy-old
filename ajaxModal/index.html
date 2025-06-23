@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+  <link rel="stylesheet" type="text/css" href="css/SqueezeBox.css" />
+  <script type="text/javascript" src="../ajax/mootools-1.2-core.js"></script>
+  <script type="text/javascript" src="js/SqueezeBox.js"></script>
+<script language="javascript">
+
+window.addEvent('domready', function() {
+ 
+	/**
+	 * That CSS selector will find all <a> elements with the
+	 * class boxed
+	 *
+	 * The example loads the options from the rel attribute
+	 */
+	SqueezeBox.assign($$('a.boxed'), {
+		parse: 'rel'
+	});
+ 
+});
+
+    var fade_in = 1;
+    var fade_out = 0.5;
+</script>
+
+</head>
+
+<body>
+<a href="http://www.progressdms.co.uk" class="boxed" rel="{handler:'iframe',size:{x:840,y:550}}">
+	MooTools.net in a box!
+</a> |
+<a href="http://www.bbc.co.uk" class="boxed" rel="{handler:'iframe',size:{x:500,y:500},iframePreload:true}" title="IFrame is preloaded">
+	MooTools Users Group
+</a>
+
+
+</body>
+</html>

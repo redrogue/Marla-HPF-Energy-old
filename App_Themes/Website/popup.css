@@ -1,0 +1,36 @@
+﻿	/*contentFormPopup*/	
+	
+#contentFormPopup
+{
+	margin: 20px 20px 0px 20px;	
+}
+
+#contentFormPopup h1
+{
+	 	font-family: "Gill Sans MT", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #3F5BAD;
+	font-weight: bold;
+	font-size: 1.1em;	
+	padding: 0px 0px 0px 0px;
+	margin:5px 0px 10px 0px;	
+}
+
+#contentFormPopup table {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 0.65em;
+	border: solid 1px #eee;
+}	
+
+#contentFormPopup td {
+	margin: 0px 0px 0px 0px;
+	padding: 8px 0px 8px 8px;	
+}
+
+#contentFormPopup td.title {
+	background-color: #eee;
+	padding: 8px 0px 8px 8px;
+	width: 120px;
+	color: #999;
+}
+    

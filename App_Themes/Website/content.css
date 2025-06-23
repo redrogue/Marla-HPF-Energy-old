@@ -1,0 +1,301 @@
+
+
+					#content h1 {
+						font-family: "Gill Sans MT", "Trebuchet MS", Arial, Helvetica, sans-serif;
+						font-size: 1em;
+						color: #3F5BAD;
+						font-weight: bold;
+						padding: 0px 0px 00px 0px;
+						margin:  0px 0px 0px 0px;
+					}
+					
+					#content h2 {
+						font-family: "Gill Sans MT", "Trebuchet MS", Arial, Helvetica, sans-serif;
+						color: #333;
+						font-weight: normal;
+						font-size: 0.9em;
+						padding: 0px 0px 0px 0px;
+					}
+					
+					
+					#content h3 {
+						color:#333;
+						font-weight: bold;
+						font-size: .8em;
+						padding: 5px 0px 5px 0px;
+					}
+					
+					#content p {
+						padding: 0px 0px 0px 0px;
+					}
+					
+					#content p, #content ul {
+						color:#222;
+						font-size: .65em;
+						line-height: 150%;
+					}
+					
+					#content td
+					{
+						font-size: 8pt; /* Using points due to Firefox and IE having different font sizes - this is because of link inheritance - IE is in the wrong here!*/
+					} 
+					
+										
+					#content li{
+						padding-bottom: 10px;
+					}
+										
+					#content .intro {
+						font-weight:bold
+					}
+					
+					#content a:link, 
+					#content a:visited {
+						text-decoration: underline;
+					}
+					
+					#content a:hover, 
+					#content a:active {
+						text-decoration: none;
+					}
+					
+					#content a.nextPrev:link, 
+					#content a.nextPrev:visited {
+						font-family: "Century Gothic", "Gill Sans MT", Arial, Helvetica, sans-serif;
+						text-transform: uppercase;
+						font-size: 0.9em;
+						color: #4F7493;
+						font-weight: bold;
+						text-decoration: none;
+					}
+					
+					#content a.nextPrev:hover, 
+					#content a.nextPrev:active {
+						text-decoration: underline;
+					}
+					
+					
+					
+				    #sidebar a{
+						font-family: "Gill Sans MT", "Trebuchet MS", Arial, Helvetica, sans-serif;
+						color: #3F5BAD;
+						font-weight: normal;
+						font-size: 0.8em;
+						line-height:1em;
+						padding: 0px 0px 0px 0px;
+						margin:0px;
+					}
+					
+					#sidebar p{
+						font-family: "Gill Sans MT", "Trebuchet MS", Arial, Helvetica, sans-serif;
+						color: #999;
+						font-weight: normal;
+						font-size: 0.9em;
+						line-height:1em;
+						padding: 0px 0px 0px 0px;
+						margin:0px;
+					}
+					
+					
+					
+					#contentForm h2{
+					    float:left;
+						font-family: "Gill Sans MT", "Trebuchet MS", Arial, Helvetica, sans-serif;
+						color:#666;
+						font-weight: bold;
+						font-size: 0.9em;
+						line-height:1em;
+						padding: 0px 0px 0px 0px;
+						margin:0px 0px 0px 0px;
+					
+					}
+					
+				    #contentForm h3{
+				        float:left;
+						font-family: "Gill Sans MT", "Trebuchet MS", Arial, Helvetica, sans-serif;
+						color: #3F5BAD;
+						font-weight: bold;
+						font-size: 0.9em;						
+						padding: 15px 0px 3px 0px;
+						margin:10px 0px 0px 0px;
+						width:440px;
+						border-bottom:solid 1px #ccc;
+					
+					}
+    					
+    			#contentForm ul {
+					list-style: none;
+					margin: 10px 0px 0px 0px;
+					padding: 0px 0px 0px 0px;
+					float:left;
+					}	
+					
+					
+					
+		        #contentForm li {
+					list-style: none;
+					margin: 0px 0px 0px 0px;
+					padding: 0px 0px 0px 0px;
+					float:left;
+					}
+					
+			       
+			       
+			       #contentForm a{
+			          font-size:1em;
+			          color:#666!important;
+			       }
+			       
+			       
+			        #contentForm a:link, 
+					#contentForm a:visited {
+						text-decoration: none;
+					}
+					
+					#contentForm a:hover, 
+					#contentForm a:active {
+						text-decoration: underline;
+					}
+					
+					
+					
+					
+					
+					
+					/*contentFormProjects*/
+					
+					
+				#contentFormProjects h2{
+					    float:left;
+						font-family: "Gill Sans MT", "Trebuchet MS", Arial, Helvetica, sans-serif;
+						color:#666;
+						font-weight: bold;
+						font-size: 0.9em;
+						line-height:1em;
+						padding: 0px 0px 10px 0px;
+						margin:0px 0px 0px 0px;
+					
+					}
+					
+				    #contentFormProjects h3{
+				        float:left;
+						font-family: "Gill Sans MT", "Trebuchet MS", Arial, Helvetica, sans-serif;
+						color: #3F5BAD;
+						font-weight: bold;
+						font-size: 0.9em;					
+						padding: 0px 0px 3px 0px;
+						margin:0px 0px 0px 0px;
+						width:440px;
+						border-bottom:solid 1px #ccc;
+					
+					}
+    					
+    			#contentFormProjects ul {
+					list-style: none;
+					margin: 0px 0px 0px 0px;
+					padding: 0px 0px 0px 0px;
+					float:left;
+					}	
+					
+					
+					
+		        #contentFormProjects li {
+					list-style: none;
+					margin: 0px 0px 0px 0px;
+					padding: 0px 0px 0px 0px;
+					float:left;
+					}
+					
+				
+					
+						/*contentFormFilters */
+						#contentFormFilters
+						{
+							clear: both;
+							float: left;
+							display: block;
+						}
+						
+						#contentFormFilters p
+						{
+							float: left;
+							margin-right: 5px;
+						}
+						
+						#contentFormFilters select
+						{
+							font-size: 1.1em;
+						}
+											
+        		
+        		
+       #content ul.clientList {
+			list-style:none;
+			margin: 0px 10px 0px 0px;
+			padding: 0px 0px 0px 0px;
+			float:left;
+			}
+		
+	
+		#content li.clientList 
+		{
+		    clear:both;
+		    display:block;
+			float: left;
+			padding: 2px 0px 2px 0px;
+			margin: 0px 0px 0px 0px;
+			}
+
+       
+       
+       
+       
+       
+       
+#projectContainer h1 {
+font-family: "Gill Sans MT", "Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size: 1em;
+color: #3F5BAD;
+font-weight: bold;
+padding: 0px 0px 0px 0px;
+margin:  0px 0px 0px 0px;
+}
+
+#projectContainer h2 {
+font-family: "Gill Sans MT", "Trebuchet MS", Arial, Helvetica, sans-serif;
+color: #333;
+font-weight: normal;
+font-size: 0.9em;
+padding: 0px 0px 0px 0px;
+}
+
+
+#projectContainer h3 {
+color:#333;
+font-weight: bold;
+font-size: .8em;
+padding: 5px 0px 5px 0px;
+}
+
+#projectContainer p {
+font-size:0.6em;
+line-height:1.4em;
+padding: 0px 0px 0px 0px;
+
+}
+
+
+
+
+
+p.contact{
+    font-size:0.8em!important;
+    float:left;
+    clear:both;
+    display:block;
+    width:625px;
+    border-bottom:solid 1px #ccc;
+    padding:0px 0px 10px 0px!important; 
+    margin:0px 0px 10px 0px!important;
+}
+

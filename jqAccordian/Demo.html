@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml2/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<script type="text/javascript" src="../js/jquery-1.4.3.min.js"></script>
+<script type="text/javascript" src="js/jqAccordion.js">
+
+/***********************************************
+* Accordion Content script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+***********************************************/
+
+</script>
+<script type="text/javascript">
+
+
+ddaccordion.init({
+	headerclass: "accordianHeader", //Shared CSS class name of headers group that are accordianHeader
+	contentclass: "accordianContent", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: false, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [0], //index of content(s) open by default [index1, index2, etc]. [] denotes no content
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: true, //persist state of opened contents within browser session?
+	toggleclass: ["", "headerOpen"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["prefix", "+", "-"], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+
+</script>
+<link href="css/jqAccordian.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<a href="#" onClick="ddaccordion.expandone('accordianHeader', 0); return false">Expand 1st header</a> | 
+<a href="#" onClick="ddaccordion.collapseone('accordianHeader', 0)">Close 1st header</a> | 
+<a href="#" onClick="ddaccordion.toggleone('accordianHeader', 1); return false">Toggle 2nd header</a> | 
+<a href="#" onClick="ddaccordion.expandall('accordianHeader'); return false">Expand all headers this must be set(collapseprev: false)</a> | 
+<a href="#" onClick="ddaccordion.collapseall('accordianHeader'); return false">Collapse all headers</a>
+
+<div class="jqAccordian">
+	<div class="header accordianHeader">open</div>
+	<div>some content alway in view</div>
+	<div class="accordianContent"> accordianHeader bit<br />
+		<a href="#" onClick="ddaccordion.collapseone('accordianHeader', 0)">Close 1st header</a>
+		
+	</div>
+	<h3 class="header accordianHeader">CSS Library</h3>
+	<ul class="accordianContent">
+		<li><a href="http://www.dynamicdrive.com/style/csslibrary/category/C1/">Horizontal CSS Menus</a></li>
+		<li><a href="http://www.dynamicdrive.com/style/csslibrary/category/C2/">Vertical CSS Menus</a></li>
+		<li><a href="http://www.dynamicdrive.com/style/csslibrary/category/C4/">Image CSS</a></li>
+		<li><a href="http://www.dynamicdrive.com/style/csslibrary/category/C6/">Form CSS</a></li>
+		<li><a href="http://www.dynamicdrive.com/style/csslibrary/category/C5/">DIVs and containers</a></li>
+		<li><a href="http://www.dynamicdrive.com/style/csslibrary/category/C7/">Links & Buttons</a></li>
+		<li><a href="http://www.dynamicdrive.com/style/csslibrary/category/C8/">Other</a></li>
+		<li><a href="http://www.dynamicdrive.com/style/csslibrary/all/">Browse All</a></li>
+	</ul>
+	<h3 class="header accordianHeader">CSS Drive</h3>
+	<ul class="accordianContent">
+		<li><a href="http://www.cssdrive.com">CSS Gallery</a></li>
+		<li><a href="http://www.cssdrive.com/index.php/menudesigns/">Menu Gallery</a></li>
+		<li><a href="http://www.cssdrive.com/index.php/news/">Web Design News</a></li>
+		<li><a href="http://www.cssdrive.com/index.php/examples/">CSS Examples</a></li>
+		<li><a href="http://www.cssdrive.com/index.php/main/csscompressor/">CSS Compressor</a></li>
+		<li><a href="http://www.dynamicdrive.com/forums/forumdisplay.php?f=6">CSS Forums</a></li>
+	</ul>
+	<h3 class="header accordianHeader">JavaScript Kit</h3>
+	<div> Regular contents here. Header does not expand or contact. </div>
+	<ul class="accordianContent">
+		<li><a href="http://www.javascriptkit.com/cutpastejava.shtml" >Free JavaScripts</a></li>
+		<li><a href="http://www.javascriptkit.com/javatutors/">JavaScript tutorials</a></li>
+		<li><a href="http://www.javascriptkit.com/jsref/">JavaScript Reference</a></li>
+		<li><a href="http://www.javascriptkit.com/domref/">DOM Reference</a></li>
+		<li><a href="http://www.javascriptkit.com/dhtmltutors/">DHTML & CSS</a></li>
+		<li>
+			<h3 class="collapse">JavaScript Kit</h3>
+		</li>
+	</ul>
+	<h3 class="header" style="cursor: default">FeedBack</h3>
+	<div> Regular contents here. Header does not expand or contact. </div>
+</div>
+<p>Assuming the current page is named "current.htm", the below links when navigated to expands a particular header on that page:</p>
+<p> - <a href="?accordianHeader=0">Expand 1st header within "accordianHeader" header group</a><br />
+	- <a href="?accordianHeader=2,3">Expand 3rd & 4th header within "accordianHeader" header group</a><br />
+</p>
+<p>Helpful links: </p>
+<p> - <a href="http://www.dynamicdrive.com/dynamicindex17/ddaccordion_suppliment.htm">Adding arbitrary links hat expand/ collapse the contents</a><br />
+	- <a href="http://www.dynamicdrive.com/dynamicindex17/ddaccordion_suppliment2.htm">Taking advantage of the oninit() and onopenclose() event handlers</a><br />
+</p>
+</body>
+</html>

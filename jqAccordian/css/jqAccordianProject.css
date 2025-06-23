@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+.jqAccordian{
+width: 420px; /*width of accordion menu*/
+}
+
+		.jqAccordian .header{ /*CSS class for menu headers in general (expanding or not!)*/
+		font: normal 12px Arial;
+		color: #535353;
+		background: #fff url(titlebar.png) repeat-x center left;
+		margin-bottom: 10px; /*bottom spacing between header and rest of content*/
+		text-transform: none;
+		padding: 4px 0 4px 10px; /*header text is indented 10px*/
+		cursor: hand;
+		cursor: pointer;
+		border-top:dotted 1px #666!important;
+		height:20px;
+		}
+		
+		.jqAccordian h3{
+		    font: normal 12px Arial;
+		    padding: 5px 0px 0px 5px!important;
+		    height:10px;
+		    }
+		
+		
+		.jqAccordian h3.head{
+		    font: normal 12px Arial;
+		    padding: 5px 0px 0px 10px!important;
+		    height:20px;
+		    background-color:#3B5AAB;
+		    color:#fff;
+		    }
+		
+		
+		
+		
+		.jqAccordian .headerOpen{ /*CSS class to apply to expandable header when it's expanded*/
+		padding: 5px 0px 0px 5px!important;
+		height:20px;
+		background-color: #535353;
+		color: #fff!important;
+
+
+		}
+		
+
+		
+		.jqAccordian p{
+		    font-size:0.7em!important;
+		    font-family: "Gill Sans MT", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	    
+		}
+		
+		.accordianContent{
+		    font-size:0.7em!important;
+		    font-family: "Gill Sans MT", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	    
+		}
+		
+		
+
+		
+	
+		
+		
+
+

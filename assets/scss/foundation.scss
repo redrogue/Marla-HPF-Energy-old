@@ -1,0 +1,46 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+// This includes all of the foundation global elements that are needed to work with any of the other files.
+@import "foundation-4.3.1/variables";
+
+// Foundation Components
+//  "foundation-4.3.1/components/grid", - replaced by grid-5
+@import
+  "foundation-4.3.1/components/global",
+  "foundation-4.3.1/components/grid-5",
+  "foundation-4.3.1/components/visibility",
+  "foundation-4.3.1/components/block-grid",
+  "foundation-4.3.1/components/type",
+  "foundation-4.3.1/components/buttons",
+  "foundation-4.3.1/components/forms",
+  "foundation-4.3.1/components/button-groups",
+  "foundation-4.3.1/components/dropdown-buttons",
+  "foundation-4.3.1/components/split-buttons",
+  "foundation-4.3.1/components/flex-video",
+  "foundation-4.3.1/components/section",
+  "foundation-4.3.1/components/top-bar",
+  "foundation-4.3.1/components/orbit",
+  "foundation-4.3.1/components/reveal",
+  "foundation-4.3.1/components/joyride",
+  "foundation-4.3.1/components/clearing",
+  "foundation-4.3.1/components/alert-boxes",
+  "foundation-4.3.1/components/breadcrumbs",
+  "foundation-4.3.1/components/custom-forms",
+  "foundation-4.3.1/components/keystrokes",
+  "foundation-4.3.1/components/labels",
+  "foundation-4.3.1/components/inline-lists",
+  "foundation-4.3.1/components/pagination",
+  "foundation-4.3.1/components/panels",
+  "foundation-4.3.1/components/pricing-tables",
+  "foundation-4.3.1/components/progress-bars",
+  "foundation-4.3.1/components/side-nav",
+  "foundation-4.3.1/components/sub-nav",
+  "foundation-4.3.1/components/switch",
+  "foundation-4.3.1/components/magellan",
+  "foundation-4.3.1/components/tables",
+  "foundation-4.3.1/components/thumbs",
+  "foundation-4.3.1/components/tooltips",
+  "foundation-4.3.1/components/dropdown",
+  "foundation-4.3.1/overides",
+  "foundation-4.3.1/components/updates";

@@ -1,0 +1,444 @@
+/*
+		label
+		input
+		textarea
+		select/option
+		radio
+		checkbox
+		button
+
+
+*/
+		/* INPUT ------------------------*/
+		
+		label	 {
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			color: #333;
+			padding: 2px;
+			font-size: 9px;
+		}
+		
+		/* INPUT ------------------------*/
+        input[type="password"]    {
+            border: 1px solid #ccc;
+            background-color: #fff;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            color: #333;
+            padding: 2px;
+            font-size: 10px;
+                        }
+		
+		input[type="text"]	 {
+			border: 1px solid #ccc;
+			background-color: #fff;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			color: #333;
+			padding: 2px;
+			font-size: 10px;
+		}
+		
+		.inputOther {
+			font-size: 10px;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+		}
+		
+		.watermarked {
+			font-size: 10px;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+		}
+		
+		.inputXSmall {
+			width: 20px;
+			font-size: 10px;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+		}
+		
+		.inputSmall {
+			width: 100px;
+			font-size: 10px;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+		}
+		
+		.inputMedium {
+			width: 200px;
+			font-size: 10px;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+		}
+		
+		.inputLarge {
+			width: 300px;
+			font-size: 10px;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+		}
+		
+		.inputXLarge {
+			width: 500px;
+			font-size: 10px;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+		}
+		
+		
+		/* TEXTAREA ------------------------*/
+	
+		textarea  {
+			border: 1px solid #ccc;
+			background-color: #fff;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			color: #333;
+			padding: 2px;
+			font-size: 10px;
+		}
+		
+		.textareaSmall {
+			width: 100px;
+			height: 50px
+		}
+		
+		.textareaSmallNarrow {
+			width: 125px;
+			height: 30px
+		}
+		
+		
+		/*.textareaMedium {
+			width: 200px;
+			height: 50px
+		}
+		
+		RJS 14.8.09 - Replaced with code from Update.css
+		*/
+
+	
+		 .textareaMedium {
+			width: 200px;
+			height: 50px
+		}
+
+
+		.textareaLarge {
+			width: 300px;
+			height: 150px
+		}
+	
+		.textareaXLarge {
+			width: 500px;
+			height: 330px
+		}
+	
+		.textareaXLargeTall {
+			width: 750px;
+			height: 950px
+		}
+	
+	
+		/* SELECT ------------------------*/
+	
+		select, option  {
+			background-color: #fff;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			color: #333;
+			font-size: 10px;
+			font-weight:normal;
+		}
+		
+	
+	
+		/* RADIO ------------------------*/
+	
+	
+		.radioBtn  {
+		}
+		
+	
+		/* CHECKBOX ------------------------*/
+	
+		.chkBox  {
+		}
+		
+	
+		/* BUTTONS ------------------------*/
+	
+		.btnSearch{
+			background-color: Green;
+			color: white;
+			font-size: 10px;
+			text-align: left;
+			border: none;
+			padding: 1px 3px 3px 3px;
+		}
+
+		.btnAdd  {
+			background-color: Green;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			color: #fff;
+			padding: 1px;
+			font-size: 10px;
+			font-weight:normal;
+			height: 18px;
+			border: 0px;
+			}
+		
+		.btnEdit  {
+			background-color: Green;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			color: #fff;
+			padding: 1px;
+			font-size: 10px;
+			font-weight:normal;
+			height: 18px;
+			border: 0px
+		}
+		
+		.btnCancel  {
+			background-color: #eee;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			color: #000;
+			padding: 1px;
+			font-size: 10px;
+			font-weight:normal;
+			height: 18px;
+			border: 0px
+		}
+		
+	
+		.btnDelete {
+			background-color: #C00;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			color: #fff;
+			padding: 1px;
+			font-size: 10px;
+			font-weight:bold;
+			height: 18px;
+			border: 0px			
+		}
+		
+		.modalBackground {
+	        filter: alpha(opacity=70); background-color: gray; opacity: 0.7
+        }
+        
+		.modalPopup
+        {		
+            background-color: #fff;
+            border: solid 1px #003399;
+            min-height: 140px;            
+            min-width: 390px;            
+        }
+        
+        /* OPERA HACK TO FIX MODAL POPUP LOCATION ON SCREEN */
+	   @media all and (min-width: 0px) 
+	   {
+   		.modalPopup{margin-top: 300px;} 
+   		}
+
+ 
+		.modalPopup p
+		{
+			margin-bottom: 5px;
+
+		}
+	
+/* VHC PARTS */
+
+#VHCParts
+{
+	margin: 0px;
+	padding: 0px;
+
+	
+}
+
+
+
+				#VHCPartsSummary
+				{
+					display: block;
+					margin: 0px 0px 15px 0px;
+					padding: 0px;
+					text-align: left;			
+					width: 300px;
+					font-size: 0.7em;
+				
+				}
+
+
+						#VHCPartsSummary p
+						{
+							clear: both;
+							display: block;
+							margin: 5px 0px 5px 0px;
+							padding: 0px;
+							
+						}
+
+						#VHCPartsSummary span
+						{
+							float:left;
+							display: inline;
+							width: 100px;
+						}
+						
+						
+				#VHCPartsDetails
+				{
+					display: block;
+					margin: 15px 0px 0px 0px;
+					padding: 5px;			
+					font-size: 1.0em;					
+				
+				}
+				
+						#VHCPartsDetails span
+						{
+							float:left;
+							display: inline;
+							width: 40px;
+						}
+				
+						#VHCPartsDetails table th
+						{
+							text-align: left;
+							padding: 2px;
+							text-transform: uppercase;
+							background-color: #f5f5f5;
+							color: #333;
+						}
+						
+						
+						#VHCPartsDetails table td
+						{
+							padding: 2px;
+							
+						}
+						
+								#VHCPartsDetails input
+								{
+									width: 50px;								
+								}
+					
+					/*			
+					#VHCPartsDetails a.lbtnGreen
+					{
+						float: left;
+						display: block;					
+						background-color: Green;
+						Border:double 3px Green;
+						font-family: Verdana, Arial, Helvetica, sans-serif;
+						font-size: xx-small;
+						color: white;
+						margin: 0px 3px 0px 0px;
+						padding: 0px 2px 0px 2px;
+						height: 14px;
+						line-height:14px;
+						text-decoration: none;
+						text-align: center;
+						
+					}
+					
+					#VHCPartsDetails a.lbtnRed
+					{
+						float: left;
+						display: block;						
+						background-color: Red;
+						Border:double 3px Red;
+						font-family: Verdana, Arial, Helvetica, sans-serif;
+						font-size: xx-small;
+						color: white;
+						margin: 0px;
+						padding: 0px 2px 0px 2px;
+						height: 14px;
+						line-height:14px;
+						text-decoration: none;
+						text-align: center;
+					}					
+					
+					#VHCPartsDetails a.lbtnBlue
+					{
+						
+						display: block;
+						background-color:#2659B7;
+						Border:double 3px #2659B7;
+						font-family: Verdana, Arial, Helvetica, sans-serif;
+						color: #ffffff;
+						font-size: xx-small;						
+						margin: 0px;
+						padding: 0px;
+						height: 14px;
+						line-height:14px;
+						text-decoration: none;
+						text-align: center;
+					}	
+					
+*/
+				
+/* VHC LABOUR */
+
+#VHCLabour
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+			#VHCLabourSummary
+			{
+				display: block;
+				margin: 15px 0px 15px 0px;
+				padding: 5px;
+				text-align: left;		
+				width: 400px;	
+				
+			}
+			
+			#VHCLabourSummary table
+			{
+				font-size: 1em;
+			}
+			
+			#VHCLabourSummary tr.noEditRow
+			{
+				/*background-color: #f5f5f5;*/
+			}
+			
+			#VHCLabourSummary table td
+			{
+				text-align: left;
+			}
+			
+					#VHCLabourSummary input[type="text"]
+					{
+						width: 70px;			
+						
+					}
+
+.grossValue
+{
+	font-weight: bold;
+	color: #333;
+	font-size: 1.2em;
+}
+
+.reCalculate
+{
+	display: block;
+	width: 70px;
+	background-color: Green;
+	Border:double 3px Green;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	height: 14px;
+	line-height:14px;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;	
+}
+			
+			
+			
+				/*This is the extender class for the Ajax Color Picker*/
+				.ajax__colorPicker {}
+				.ajax__colorPicker_container {background-color:#000;position:absolute;width:201px;overflow:hidden;padding: 0px 0px 0px 0px;}
+				.ajax__colorPicker_container table {border:1px solid #646464;}
+				.ajax__colorPicker_container table td div {width:10px;height:11px;cursor:pointer;}

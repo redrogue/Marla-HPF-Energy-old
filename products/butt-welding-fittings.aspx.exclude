@@ -1,0 +1,140 @@
+﻿<%@ Page Language="VB" MasterPageFile="~/website.master" AutoEventWireup="false"
+    CodeFile="butt-welding-fittings.aspx.vb" Inherits="_Default" Title="Butt Welding Fittings - HPF Energy Services - Total Support for all your Pipeline Product requirements from the highest of Quality Sources." %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+<meta name="description" content="HPF Energy Services is a worldwide supplier of pipe, fittings, flanges with the highest levels of quality and service." />
+<meta name="keywords" content="pipe, flange, fitting, carbon steel, stainless steel, alloy steel, high yield, molybdenum steel, duplex, ferric alloy, super duplex, ASTM, API, A106B, A333, 5LB, 5L X42, 5l X52, A335, UNS 31254, A312, S31803, A234 WPB, A420 WPL6, MSS SP-75, A403, ANSI, A694, A105, A105N, UNS 31803, A182, LF2, HPF, HPF Energy Services, A403, A350, A312, low temperature steel, top-side fabrication, FPSO, skid mounted, module, process plant, engineering, EPC contractor, oil & gas, spool, isometric, oilfield equipment, control systems, mechanical, structural, installation, pipework, onshore, offshore, petrochemical, chemical, pharmaceutical, power generation, pressure vessel, heat exchanger, construction, LNG, LPG, refinery, compressor station, flowline, platform, spar, piping bulks" />
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <!--START banner -->
+    <div id="banner">
+        <img src="~/products/images/butt-welding-banner.jpg" width="960" height="271" alt="Products"
+            runat="server" id="imgBw" />
+    </div>
+    <!--END banner -->
+    <!--START mainWrapper -->
+    <div id="mainWrapper">
+        <!--START subNav -->
+        <!-- InstanceBeginEditable name="SubNav" -->
+        <div id="subNav">
+            <h2 class="productIcon">
+                PRODUCTS</h2>
+            <ul>
+                <li ><a href="~/products/line-pipes.html" runat="server" id="lnkLine">
+                    &nbsp;&raquo; Line Pipes</a></li>
+                <li class="current"><a href="~/products/butt-welding-fittings.html" runat="server" id="lnkWeld">&nbsp;&raquo;
+                    Butt Welding Fittings</a></li>
+                <li><a href="~/products/heavy-wall-butt-welding-fittings.html" runat="server" id="lnkButt">&nbsp;&raquo;
+                    Heavy Wall Butt Welding Fittings</a></li>
+                <li><a href="~/products/forged-steel-flanges.html" runat="server" id="lnkFlange">&nbsp;&raquo;
+                    Forged Steel Flanges</a></li>
+                <li><a href="~/products/forged-steel-fittings.html" runat="server" id="lnkForged">&nbsp;&raquo;
+                    Forged Steel Fittings</a></li>
+                <li><a href="~/products/forged-branch-outlets.html" runat="server" id="lnkBranch">&nbsp;&raquo;
+                    Forged Branch Outlets</a></li>
+                <li><a href="~/products/special-requirements.html" runat="server" id="lnkSpecial">&nbsp;&raquo;
+                    Special Requirements</a></li>
+            </ul>
+            
+               <div class="clearfix">
+            </div>
+            <div class="clearfix">
+            </div>
+           
+        </div>
+        <!--END subNav -->
+        <!--START homeLinks -->
+        <div id="content">
+            <h1>
+               [1.2] BUTT WELDING FITTINGS</h1>
+            <p>
+                Butt welding fittings are stocked in the following range of materials and sizes:</p>
+            <div id="contentForm">
+                <h2>
+                    Range of materials and sizes</h2>
+                <h3>
+                    Carbon Steel (WPB)</h3>
+                <ul>
+                    <li class="header">Material Grade</li>
+                    <li class="header">Size Range</li>
+                    <li class="header">Wall Thickness Range</li>
+                </ul>
+                <ul>
+                    <li class="info">ASTM A234 WPB</li>
+                    <li class="info">½” NB to 36"</li>
+                    <li class="info">Sch STD and XS</li>
+                </ul>
+               
+                <!-- Seperate Row -->
+                <h3>
+                    Carbon Steel (WPL6)</h3>
+                <ul>
+                    <li class="header">Material Grade</li>
+                    <li class="header">Size Range</li>
+                    <li class="header">Wall Thickness Range</li>
+                </ul>
+                <ul>
+                    <li class="info">ASTM A420 WPL6</li>
+                    <li class="info">½” NB to 24"</li>
+                    <li class="info">Sch STD and XS</li>
+                </ul>
+                
+                 <!-- Seperate Row -->
+                <h3>
+                    High Yield Fittings</h3>
+                <ul>
+                    <li class="header">Material Grade</li>
+                    <li class="header">Size Range</li>
+                    <li class="header">Wall Thickness Range</li>
+                </ul>
+                <ul>
+                    <li class="info">MSS SP 75 WPHY 52</li>
+                    <li class="info">½” NB to 12"</li>
+                    <li class="info">Sch XS</li>
+                </ul>
+                
+                
+                <!-- Seperate Row -->
+                <h3>
+                   Stainless Steel</h3>
+                <ul>
+                    <li class="header">Material Grade</li>
+                    <li class="header">Size Range</li>
+                    <li class="header">Wall Thickness Range</li>
+                </ul>
+                <ul>
+                    <li class="info">ASTM A403 316L</li>
+                    <li class="info">½” NB to 8"</li>
+                    <li class="info">Sch 10s to 80s</li>
+                </ul>
+                
+                  <!-- Seperate Row -->
+                <h3>
+                   Duplex Stainless Steel</h3>
+                <ul>
+                    <li class="header">Material Grade</li>
+                    <li class="header">Size Range</li>
+                    <li class="header">Wall Thickness Range</li>
+                </ul>
+                <ul>
+                    <li class="info">UNS S31803</li>
+                    <li class="info">½” NB to 8"</li>
+                    <li class="info">Sch 10s to 80s</li>
+                </ul>
+                           
+                
+ </div>
+        </div>
+        <div id="sidebar">
+            <img src="~/products/images/buttWeld-sideImg.jpg" width="211" height="191" alt="Products"
+                runat="server" id="imgLp" />
+                       <hpf:newsFeed ID="newsFeed" runat="server" />
+                       <hpf:ourProjects ID="OurProjects1" runat="server" />
+        </div>
+        <!--END homeAbout -->
+        <div class="clearfix">
+        </div>
+    </div>
+    <!--END mainWrapper -->
+</asp:Content>

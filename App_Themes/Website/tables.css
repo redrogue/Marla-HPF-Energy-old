@@ -1,0 +1,71 @@
+﻿/*
+
+All content within #main 
+
+	*/
+table {
+	width:100%;
+}
+
+td {
+	vertical-align:top;
+	font-family:Verdana , Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 0.65em;
+}
+
+
+
+		
+		/* Tables  ---------------------------*/
+		
+					
+				/* infoTable ----------------------*/
+				
+				
+						.infoTable {
+							margin: 0px 0px 20px 0px ;
+							border-collapse:collapse;
+							border: #fff; /* fix for removing black borders in Firefox */
+							
+						}
+						
+						.infoTable caption {
+							text-align: left;
+							padding: 5px;
+							border-bottom: 1px dotted #999;	
+							color:#003399;
+							font-family: "gill sans mt", "trebuchet ms", arial, verdana;
+							font-weight: normal;
+							font-size: 18px;
+						}
+						
+						.contentCell-100 .infoTable caption /* removes Caption top-border if no padding */
+						{
+							border-top: none;
+						}
+						
+						.infoTable th {
+							padding: 5px;
+							color: #003399;
+							font-family: "trebuchet ms", arial, verdana;
+							font-size:10px;
+							text-align: left;
+							font-weight: bold;
+							border-bottom: 1px dotted #003399;
+						}
+
+						.infoTable tr{
+						}
+						
+						.infoTable tr.odd{
+							background-color:#efefef;
+						}
+												
+						.infoTable td{
+							padding: 5px;
+							color: #666;
+							border-bottom: 1px dotted #ddd;
+							margin:0px;
+						}
+						
